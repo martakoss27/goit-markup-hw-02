@@ -1,0 +1,181 @@
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  width: 1600px;
+  height: 2349px;
+
+  background: #ffffff;
+}
+header {
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+.title {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+h1 {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.button-title {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button-text {
+  width: 161px;
+  height: 30px;
+  left: 720px;
+  top: 440px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  display: inline;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.group-1 {
+  position: absolute;
+  width: 1170px;
+  height: 95px;
+  left: 215px;
+  top: 774px;
+}
+.group-1-header {
+  width: 270px;
+  height: 15.05px;
+  left: 215px;
+  top: 774px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.group-1-list {
+  position: absolute;
+  display: flex;
+  list-style-type: none;
+}
+.what-we-do {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+.our-team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  background: #f5f4fa;
+}
+.our-team-header {
+  position: absolute;
+  width: 165px;
+  height: 42px;
+  left: 718px;
+  top: 94px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.our-team-list {
+  position: absolute;
+  width: 1170px;
+  height: 368px;
+  left: 215px;
+  top: 186px;
+  display: flex;
+  list-style-type: none;
+}
+.team-cards {
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 186px;
+  opacity: 0.86;
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-names {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-position {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+
+  background: #2f303a;
+}
