@@ -6,11 +6,117 @@ body {
 
   background: #ffffff;
 }
-header {
+.header {
   width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
+}
+.header-logo {
+  width: 145px;
+  height: 31px;
+  padding-left: 215px;
+  padding-top: 24px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.header-nav-list {
+  top: 32px;
+  display: flex;
+  list-style-type: none;
+}
+.header-nav-studio {
+  position: absolute;
+  width: 42px;
+  height: 16px;
+  left: 457px;
+  top: 32px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+.header-nav-portfolio {
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.header-nav-contacts {
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.header-contacts-list {
+  display: flex;
+  list-style-type: none;
+}
+.header-contact-link-mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+.header-contact-link-tel {
+  position: absolute;
+  width: 113px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
 }
 .title {
   width: 1600px;
@@ -96,6 +202,16 @@ h1 {
   display: flex;
   list-style-type: none;
 }
+.group-1-content {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 .what-we-do {
   position: absolute;
   width: 1170px;
@@ -178,4 +294,50 @@ footer {
   top: 2097px;
 
   background: #2f303a;
+}
+.footer-logo {
+  width: 145px;
+  height: 31px;
+  padding-left: 215px;
+  top: 60px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.footer-address-box {
+  padding-left: 215px;
+  top: 100px;
+  width: 231px;
+  height: 92px;
+}
+.footer-address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.footer-contacts-list {
+  list-style-type: none;
+  padding-left: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
