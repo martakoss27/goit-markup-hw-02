@@ -3,7 +3,7 @@ body {
   position: relative;
   width: 1600px;
   height: 2349px;
-
+  color: #212121;
   background: #ffffff;
 }
 a:link {
@@ -14,7 +14,7 @@ a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-
+/*Header*/
 .header {
   width: 1600px;
   height: 80px;
@@ -128,6 +128,7 @@ a:hover {
 
   color: #757575;
 }
+/* Main-index*/
 .title {
   width: 1600px;
   height: 600px;
@@ -325,7 +326,120 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
 }
+/*Main-portfolio*/
+.portfolio {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
+}
+.filters {
+  position: absolute;
+  width: 700px;
+  height: 54px;
+  left: 280px;
+  top: 92px;
+}
+.filter-button {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filter-button:hover {
+  background: #2196f3;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.03em;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.filter-button-text:hover {
+  color: #ffffff;
+}
+.projects-row-1 {
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  margin-top: 182px;
+  display: flex;
+}
+
+.projects-row-2 {
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  margin-top: 30px;
+  display: flex;
+}
+.projects-row-3 {
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  margin-top: 30px;
+  display: flex;
+}
+.project-button {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.row-title {
+  width: 322px;
+  height: 70px;
+  left: 239px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+h4 {
+  margin-bottom: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #212121;
+}
+.row-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  margin-top: 4px;
+
+  color: #757575;
+}
+
+.project-button {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/*Footer*/
 footer {
   position: absolute;
   width: 1600px;
@@ -351,6 +465,7 @@ footer {
 
   color: #2196f3;
 }
+
 .footer-address-box {
   padding-left: 215px;
   top: 100px;
