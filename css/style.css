@@ -39,7 +39,8 @@ a:hover {
   width: 145px;
   height: 31px;
   margin-left: 215px;
-  margin-top: 24px;
+
+  padding-top: 24px;
   margin-bottom: 25px;
 }
 .header-logo {
