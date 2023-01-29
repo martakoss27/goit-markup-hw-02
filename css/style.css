@@ -1,18 +1,32 @@
+/*Variables library*/
+:root {
+  /*colors*/
+  --main-backroung-color: #ffffff;
+  --sec-background-color-dark: #2f303a;
+  --third-backround-color-gray: #f5f4fa;
+  --main-text-color: #212121;
+  --sec-text-color-gray: #757575;
+  --text-color-white: #ffffff;
+  --additional-color: #2196f3;
+  /*links and buttons*/
+  --cursor: pointer;
+}
 body {
   font-family: "Roboto", sans-serif;
   position: relative;
-  width: 1600px;
-  height: 2349px;
-  color: #212121;
-  background: #ffffff;
+  color: var(--main-text-color);
+  background: var(--main-backroung-color);
+}
+a {
+  color: var(--main-text-color);
 }
 a:link {
   text-decoration: none;
 }
 a:hover {
-  color: #2196f3;
+  color: var(--additional-color);
   text-decoration: underline;
-  cursor: pointer;
+  cursor: var(--cursor);
 }
 /*Header*/
 .header {
@@ -21,12 +35,14 @@ a:hover {
   left: 0px;
   top: 0px;
 }
-.header-logo {
+.header-logo-container {
   width: 145px;
   height: 31px;
-  padding-left: 215px;
-  padding-top: 24px;
-
+  margin-left: 215px;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.header-logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -35,10 +51,10 @@ a:hover {
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--additional-color);
 }
 .header-nav-list {
-  top: 32px;
+  top: 24px;
   display: flex;
   list-style-type: none;
 }
@@ -56,7 +72,7 @@ a:hover {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .header-nav-portfolio {
   position: absolute;
@@ -72,7 +88,7 @@ a:hover {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .header-nav-contacts {
@@ -89,7 +105,7 @@ a:hover {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .header-contacts-list {
@@ -110,7 +126,7 @@ a:hover {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--sec-text-color-gray);
 }
 .header-contact-link-tel {
   position: absolute;
@@ -126,7 +142,7 @@ a:hover {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--sec-text-color-gray);
 }
 /* Main-index*/
 .title {
@@ -134,7 +150,7 @@ a:hover {
   height: 600px;
   left: 0px;
   top: 80px;
-  background: #2f303a;
+  background: var(--sec-background-color-dark);
 }
 h1 {
   position: absolute;
@@ -153,7 +169,7 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 .button-title {
   position: absolute;
@@ -162,10 +178,16 @@ h1 {
   left: 700px;
   top: 430px;
 
-  background: #2196f3;
+  background: var(--additional-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+}
+.button-title:hover {
+  background: #188ce8;
+  color: var(--text-color-white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .button-text {
   width: 161px;
@@ -184,7 +206,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 .group-1 {
   position: absolute;
@@ -207,7 +229,7 @@ h1 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--main-text-color);
 }
 .group-1-list {
   position: absolute;
@@ -222,7 +244,7 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--sec-text-color-gray);
 }
 
 .what-we-do {
@@ -247,7 +269,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-text-color);
 }
 .what-we-do-list {
   display: flex;
@@ -264,7 +286,7 @@ h1 {
   height: 648px;
   left: 0px;
   top: 1449px;
-  background: #f5f4fa;
+  background: var(--third-backround-color-gray);
 }
 .our-team-header {
   position: absolute;
@@ -281,7 +303,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-text-color);
 }
 .our-team-list {
   text-align: center;
@@ -300,7 +322,7 @@ h1 {
   margin-left: 15px;
   margin-right: 15px;
   opacity: 0.86;
-  background: #ffffff;
+  background: var(--main-backroung-color);
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -322,7 +344,7 @@ h1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-
+  color: var(--sec-text-color-gray);
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -354,21 +376,21 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-text-color);
 
-  background: #f5f4fa;
+  background: var(--main-backroung-color);
   border-radius: 4px;
   cursor: pointer;
 }
 .filter-button:hover {
-  background: #2196f3;
+  background: var(--additional-color);
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  color: #ffffff;
+  color: var(--text-color-white);
   text-align: center;
   letter-spacing: 0.03em;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -398,8 +420,9 @@ h1 {
   display: flex;
 }
 .project-button {
-  background: #ffffff;
+  background: var(--main-backroung-color);
   border: 1px solid #eeeeee;
+  cursor: var(--cursor);
 }
 .row-title {
   width: 322px;
@@ -417,7 +440,7 @@ h4 {
   line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .row-description {
   font-family: "Roboto";
@@ -429,7 +452,7 @@ h4 {
   letter-spacing: 0.03em;
   margin-top: 4px;
 
-  color: #757575;
+  color: var(--sec-text-color-gray);
 }
 
 .project-button {
@@ -444,7 +467,7 @@ footer {
   left: 0px;
   top: 2097px;
 
-  background: #2f303a;
+  background: var(--sec-background-color-dark);
 }
 .footer-logo {
   width: 145px;
@@ -460,7 +483,7 @@ footer {
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--additional-color);
 }
 
 .footer-address-box {
@@ -478,7 +501,7 @@ footer {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 .footer-contacts-list {
   list-style-type: none;
