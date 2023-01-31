@@ -11,10 +11,10 @@
   /*links and buttons*/
   --cursor: pointer;
 }
+
 body {
   width: 100%;
   font-family: "Roboto", sans-serif;
-  position: relative;
   color: var(--main-text-color);
   background: var(--main-backroung-color);
 }
@@ -37,7 +37,6 @@ button:hover {
 /*Header*/
 .header {
   width: 100%;
-  height: 16%;
 }
 .header-logo-container {
   width: 9%;
@@ -198,13 +197,13 @@ h1 {
 .group-1 {
   position: absolute;
   width: 73%;
-  height: 95px;
   left: 13.5%;
   top: 774px;
 }
 .group-1-header {
   width: 270px;
   height: 15px;
+  margin-left: 10px;
 
   font-family: "Roboto";
   font-style: normal;
@@ -212,7 +211,6 @@ h1 {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 
   color: var(--main-text-color);
 }
@@ -228,24 +226,23 @@ h1 {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  height: 97px;
+  margin-left: 10px;
+  margin-right: 10px;
 
   color: var(--sec-text-color-gray);
 }
 
 .what-we-do {
   position: absolute;
-  width: 73%;
+  width: 80%;
   height: 386px;
-  left: 13.5%;
+  margin: 0% 10% 0% 10%;
   top: 969px;
 }
 .what-we-do-header {
-  position: absolute;
-  width: 18%;
-  left: 41%;
-  height: 11%;
-  top: 0%;
-
+  width: 20%;
+  margin: auto;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -257,13 +254,17 @@ h1 {
   color: var(--main-text-color);
 }
 .what-we-do-list {
+  position: absolute;
+  width: 90%;
   display: flex;
-  margin-top: 92px;
+  justify-content: space-evenly;
+  padding: 0%;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
   list-style: none;
 }
 .what-we-do-list-element {
-  margin-left: 1%;
-  margin-right: 1%;
 }
 .our-team {
   position: absolute;
